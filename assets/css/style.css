@@ -141,3 +141,14 @@ img {
   color: var(--txt-primary);
   font-size: 1.125rem;
 }
+
+.cat-imgs {
+  background-color: var(--bg-primary);
+  margin: 2rem 2rem;
+  column-count: 1;
+  padding: 1rem;
+}
+.cat-imgs img {
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
