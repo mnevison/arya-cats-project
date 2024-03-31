@@ -101,3 +101,32 @@ img {
   padding: 3rem 5rem 0.25rem;
   text-shadow: 1px 1px 1px black;
 }
+
+/* Small Cats */
+
+.color-wrapper-head {
+  background-color: var(--bg-primary);
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--bg-secondary);
+}
+
+.sc-title {
+  padding-block: 2rem;
+  color: var(--txt-primary);
+  text-shadow: 1px 1px 1px black;
+}
+
+.sc-container {
+  background-color: var(--bg-secondary);
+  margin: 2rem;
+  border: 2px solid var(--bg-primary);
+}
+
+.smallcat-content {
+  color: var(--txt-primary);
+  font-size: 1.125rem;
+  text-shadow: 1px 1px 1px black;
+}
