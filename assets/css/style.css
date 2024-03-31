@@ -1,10 +1,10 @@
 :root {
   /* Canva Easter Egg Nest  */
 
-  --bg-primary: #d3b5e5;
-  --bg-secondary: #bbe7fe;
-  --txt-primary: #eff1db;
-  --txt-secondary: #ffd4db;
+  --bg-primary: #0c1446;
+  --bg-secondary: #175873;
+  --txt-primary: #87aca3;
+  --txt-secondary: #2b7c85;
   --transition: all 0.5s ease;
 }
 
@@ -70,6 +70,10 @@ img {
   color: var(--txt-secondary);
 }
 
+.navbar-nav .nav-link.active {
+  color: var(--txt-secondary);
+}
+
 .navbar-toggler {
   border: none;
   color: var(--txt-primary);
@@ -82,7 +86,7 @@ img {
   z-index: 12;
   margin-top: 5%;
   margin-left: 10%;
-  color: var(--bg-primary);
+  color: var(--txt-primary);
   text-shadow: 5px 5px 5px black;
 }
 
@@ -116,7 +120,6 @@ img {
 .sc-title {
   padding-block: 2rem;
   color: var(--txt-primary);
-  text-shadow: 1px 1px 1px black;
 }
 
 .sc-container {
@@ -128,5 +131,4 @@ img {
 .smallcat-content {
   color: var(--txt-primary);
   font-size: 1.125rem;
-  text-shadow: 1px 1px 1px black;
 }
