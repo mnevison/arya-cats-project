@@ -1,10 +1,10 @@
 :root {
   /* Canva Easter Egg Nest  */
 
-  --bg-primary: #0c1446;
-  --bg-secondary: #175873;
-  --txt-primary: #87aca3;
-  --txt-secondary: #2b7c85;
+  --bg-primary: #9b8bf4;
+  --bg-secondary: #b3c7f7;
+  --txt-primary: #fff;
+  --txt-secondary: #283551;
   --transition: all 0.5s ease;
 }
 
@@ -151,4 +151,31 @@ img {
 .cat-imgs img {
   width: 100%;
   padding-bottom: 0.5rem;
+}
+
+/* Big Cats */
+
+.color-wrapper {
+  border: 2px solid var(--bg-primary);
+  background-color: var(--bg-secondary);
+  padding-top: 1rem;
+  margin: 2rem;
+}
+
+.gen-bc-info {
+  margin: 2rem;
+  font-size: 1.125rem;
+  align-items: center;
+}
+
+.gen-bc-head h2 {
+  color: var(--txt-secondary);
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.all-big-cats {
+  height: 350px;
+  width: 350px;
+  padding-bottom: 1rem;
 }
