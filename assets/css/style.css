@@ -84,3 +84,19 @@ img {
   color: var(--bg-primary);
   text-shadow: 5px 5px 5px black;
 }
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  z-index: -1;
+  bottom: 0;
+  text-align: center;
+  align-items: center;
+  background-color: var(--bg-secondary);
+  color: var(--txt-primary);
+  padding: 3rem 5rem 0.25rem;
+  text-shadow: 1px 1px 1px black;
+}
