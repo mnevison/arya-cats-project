@@ -57,3 +57,19 @@ img {
   padding-top: 140px;
   padding-bottom: 140px;
 }
+
+/* NAV */
+
+.navbar {
+  background-color: var(--bg-primary);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--txt-primary);
+  transition: var(--transition);
+}
+
+.nav-link:hover {
+  color: var(--txt-secondary);
+}

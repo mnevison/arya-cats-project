@@ -21,10 +21,13 @@
 
     <title>All About Cats</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <body data-bs-spy="scroll" data-bs-target="#navbarNavAltMarkup">
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand bg-body-tertiary sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Cat Facts</a>
+        <a class="navbar-brand" href="#">All About Cats!</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,14 +40,89 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
+          <div class="navbar-nav ms-auto">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="#scrollspyHeading1 small-cats"
+              >Small Cats</a
+            >
+            <a class="nav-link" href="#scrollspyHeading2">Big Cats</a>
+            <a class="nav-link" href="#scrollspyHeading3">Cat Facts</a>
+            <a class="nav-link" href="#scrollspyHeading4">Cat Videos</a>
           </div>
         </div>
       </div>
     </nav>
+
+    <!-- Img Carousel -->
+
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/images/cute-kitten-staring-out-window-playful-curiosity-generative-ai_188544-12520.jpg"
+            class="d-block w-100"
+            alt="kitten"
+          />
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="assets/images/leopard-is-curled-up-its-back_188544-19872.jpg"
+            class="d-block w-100"
+            alt=leopard"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/majestic-lion-king-wilderness-gazes-into-distance-generated-by-artificial-intellingence_25030-63776.jpg"
+            class="d-block w-100"
+            alt="lion"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/one-fluffy-kitten-playing-staring-camera-generated-by-ai_188544-20854.jpg"
+            class="d-block w-100"
+            alt="fluffy kitten"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/wild-jaguar-staring-close-up-portrait-africa-generative-ai_188544-12817.jpg"
+            class="d-block w-100"
+            alt="jaguar"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Small Cats -->
+
+    <section id="small-cats"></section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
