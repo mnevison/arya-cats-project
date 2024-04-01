@@ -6,6 +6,8 @@
   --txt-primary: #fff;
   --txt-secondary: #283551;
   --transition: all 0.5s ease;
+  --hover-primary: #a99def;
+  --hover-secondary: #95b2f5;
 }
 
 /* GENERAL STYLING / MARGINS / PADDING */
@@ -189,6 +191,37 @@ img {
 
 .gen-bc-info ul:last-child {
   padding-block: 1rem;
+}
+.head-container {
+  position: relative;
+}
+
+.audio-button {
+  border-radius: 0.5em;
+  padding: 3px;
+  background-color: var(--bg-secondary);
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+
+.audio-button:hover {
+  background-color: var(--hover-secondary);
+  transition: var(--transition);
+}
+
+.audio-button-alt {
+  border-radius: 0.5em;
+  padding: 3px;
+  background-color: var(--bg-primary);
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+
+.audio-button-alt:hover {
+  background-color: var(--hover-primary);
+  transition: var(--transition);
 }
 
 /* Big Cats - Cougar */
