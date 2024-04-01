@@ -170,6 +170,7 @@ img {
 }
 
 .gen-bc-head h3 {
+  text-transform: uppercase;
   color: var(--txt-secondary);
   padding-bottom: 1rem;
   text-align: center;
@@ -187,7 +188,7 @@ img {
 }
 
 .gen-bc-info ul:last-child {
-  padding-bottom: 1rem;
+  padding-block: 1rem;
 }
 
 /* Big Cats - Cougar */
