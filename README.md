@@ -9,3 +9,5 @@ By NaturesFan1226, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=53
 <a href="https://www.freepik.com/free-photo/portrait-lion-ai-generated_47072733.htm#fromView=search&page=1&position=6&uuid=517950cc-dc7e-4318-9db4-5bfcec90a91c">Image by vwalakte on Freepik</a>
 
 <a href="https://www.freepik.com/free-ai-image/majestic-bengal-tiger-fierce-beautiful-hiding-green-forest-generated-by-artificial-intelligence_80536203.htm#fromView=search&page=1&position=2&uuid=ad49b047-6ff7-42b6-897d-0d011b4def83">Image by grmarc on Freepik</a>
+
+Sound Effect by <a href="https://pixabay.com/users/dffdv-42492812/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=195840">dffdv</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=195840">Pixabay</a>
