@@ -5,3 +5,5 @@
 <a href="https://www.freepik.com/free-photo/kitty-cats-pillow_5554758.htm#query=kitten&position=10&from_view=keyword&track=sph&uuid=2655ec57-31f2-44ed-a163-c701658445ae">Image by jcomp</a> on Freepik
 
 By NaturesFan1226, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=53525143 cougar img
+
+<a href="https://www.freepik.com/free-photo/portrait-lion-ai-generated_47072733.htm#fromView=search&page=1&position=6&uuid=517950cc-dc7e-4318-9db4-5bfcec90a91c">Image by vwalakte on Freepik</a>
