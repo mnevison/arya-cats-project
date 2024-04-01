@@ -226,6 +226,6 @@ img {
   color: var(--txt-secondary);
 }
 
-.video-content{
-  align-items: center;
+.video-content {
+  overflow: none;
 }
