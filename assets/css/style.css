@@ -199,3 +199,33 @@ img {
   padding-top: 1rem;
   margin: 2rem;
 }
+
+/* CAT FACTS */
+
+.facts-header {
+  text-align: center;
+  padding-block: 1rem;
+  text-transform: uppercase;
+  color: var(--txt-secondary);
+}
+
+.facts-content {
+  font-size: 1.125rem;
+  padding: 2rem;
+}
+
+.facts-content ul {
+  display: block;
+}
+
+/* CAT VIDEOS */
+
+.video-head {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--txt-secondary);
+}
+
+.video-content{
+  align-items: center;
+}
