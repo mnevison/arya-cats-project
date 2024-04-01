@@ -61,6 +61,8 @@ img {
 
 .nav-title {
   color: var(--txt-primary);
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .nav-title:hover {
   color: var(--txt-secondary);
@@ -76,6 +78,8 @@ img {
   text-decoration: none;
   color: var(--txt-primary);
   transition: var(--transition);
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .nav-link:hover {
@@ -113,9 +117,9 @@ img {
   text-align: center;
   align-items: center;
   background-color: var(--bg-secondary);
-  color: var(--txt-primary);
+  color: var(--txt-secondary);
   padding: 3rem 5rem 0.25rem;
-  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
 }
 
 /* Small Cats */
