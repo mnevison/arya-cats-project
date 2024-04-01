@@ -45,11 +45,6 @@ img {
   height: auto;
 }
 
-.section-padding {
-  padding-top: 140px;
-  padding-bottom: 140px;
-}
-
 .hstack {
   display: flex;
   flex-direction: row;
