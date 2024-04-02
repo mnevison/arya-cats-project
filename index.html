@@ -356,7 +356,10 @@
               <h3>Cougars</h3>
             </div>
             <div class="audio">
-              <audio src="assets/audio/cougar-growl.mp3" id="myAudio"></audio>
+              <audio
+                src="assets/audio/cougar-growl.mp3"
+                class="myAudio"
+              ></audio>
               <button class="audio-button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -422,7 +425,7 @@
               <h3>Lions</h3>
             </div>
             <div class="audio">
-              <audio src="assets/audio/lion-roar.mp3" id="myAudio"></audio>
+              <audio src="assets/audio/lion-roar.mp3" class="myAudio"></audio>
               <button class="audio-button-alt">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -497,7 +500,7 @@
               <h3>Tigers</h3>
             </div>
             <div class="audio">
-              <audio src="assets/audio/tiger-sound.mp3" id="myAudio"></audio>
+              <audio src="assets/audio/tiger-sound.mp3" class="myAudio"></audio>
               <button class="audio-button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -573,7 +576,10 @@
               <h3>Bobcat</h3>
             </div>
             <div class="audio">
-              <audio src="assets/audio/bobcat-snarl.mp3" id="myAudio"></audio>
+              <audio
+                src="assets/audio/bobcat-snarl.mp3"
+                class="myAudio"
+              ></audio>
               <button class="audio-button-alt">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -739,7 +745,6 @@
                 height="726"
                 src="https://www.youtube.com/embed/QiPd8Nk_t8g"
                 title="Cats silliest creature on earth 😆- Funny cats videos 🐱 #shorts #funny"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -751,7 +756,6 @@
                 height="801"
                 src="https://www.youtube.com/embed/3bhkYoMWTFE"
                 title="😹Cats Doing Cat Things😹 (3)"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -763,7 +767,6 @@
                 height="801"
                 src="https://www.youtube.com/embed/WT3X1DbU8BM"
                 title="😹Cats Doing Cat Things😹 (8)"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -775,7 +778,6 @@
                 height="801"
                 src="https://www.youtube.com/embed/LkTYOH_4U8Y"
                 title="😹Cats Doing Cat Things😹 (7)"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -798,28 +800,31 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      let audio = document.getElementById("myAudio");
+      let audios = document.getElementsByClassName("myAudio");
       let isPlaying = false;
 
       function toggleAudio(audioSrc) {
-        if (audioSrc !== audio.src) {
-          audio.pause();
-          audio.src = audioSrc;
-          audio.load();
-        }
+        for (let i = 0; i < audios.length; i++) {
+          let audio = audios[i];
+          if (audioSrc !== audio.src) {
+            audio.pause();
+            audio.src = audioSrc;
+            audio.load();
+          }
 
-        if (!isPlaying) {
-          audio.play();
-          isPlaying = true;
-          document
-            .querySelector(".audio-button svg")
-            .setAttribute("class", "bi bi-pause");
-        } else {
-          audio.pause();
-          isPlaying = false;
-          document
-            .querySelector(".audio-button svg")
-            .setAttribute("class", "bi bi-play");
+          if (!isPlaying) {
+            audio.play();
+            isPlaying = true;
+            document
+              .querySelector(".audio-button svg")
+              .setAttribute("class", "bi bi-pause");
+          } else {
+            audio.pause();
+            isPlaying = false;
+            document
+              .querySelector(".audio-button svg")
+              .setAttribute("class", "bi bi-play");
+          }
         }
       }
     </script>
