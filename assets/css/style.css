@@ -99,6 +99,7 @@ img {
   margin-left: 10%;
   color: var(--txt-primary);
   text-shadow: 5px 5px 5px black;
+  text-transform: uppercase;
 }
 
 /* Footer */
