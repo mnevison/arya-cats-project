@@ -1,9 +1,4 @@
 :root {
-  /* Canva Easter Egg Nest  */
-
-
-  /* dawdadawdw */
-
   --bg-primary: #9b8bf4;
   --bg-secondary: #b3c7f7;
   --txt-primary: #fff;
@@ -153,6 +148,7 @@ img {
   margin: 2rem 2rem;
   column-count: 1;
   padding: 1rem;
+  
 }
 .cat-imgs img {
   width: 100%;
@@ -166,6 +162,12 @@ img {
   background-color: var(--bg-secondary);
   padding-top: 1rem;
   margin: 2rem;
+}
+
+.cat-imgs-bc img {
+  height: 100%;
+  width: auto;
+  padding-bottom: 0.5rem;
 }
 
 .gen-bc-info {
